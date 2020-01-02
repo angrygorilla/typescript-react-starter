@@ -35,5 +35,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Sample Typescript react starter",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljlm0402/typescript-react-stater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ljlm0402/typescript-react-stater/issues"
+  },
+  "homepage": "https://github.com/ljlm0402/typescript-react-stater#readme"
 }
