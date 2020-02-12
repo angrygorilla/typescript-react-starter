@@ -1,44 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src='https://github.com/ljlm0402/typescript-react-starter/raw/images/logo.jpg' border='0' alt='logo' />
 
-## Available Scripts
+[React](https://reactjs-kr.firebaseapp.com/) with [TypeScript's](https://www.npmjs.com/package/typescript) application generator.
 
-In the project directory, you can run:
+<a href="https://www.npmjs.com/package/typescript-react-starter" target="_blank"><img src="https://img.shields.io/npm/v/typescript-react-starter.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/package/typescript-react-starter" target="_blank"><img src="https://img.shields.io/npm/l/typescript-react-starter.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/package/typescript-react-starter" target="_blank"><img src="https://img.shields.io/npm/dm/typescript-react-starter.svg" alt="NPM Downloads" /></a>
 
-### `yarn start`
+<br />
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🧐 What is it?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Creates a new typescript react application.
+application is configured to use TypeScript instead of plain JavaScript. 
 
-### `yarn test`
+## 🤔 Why typescript-react-starter?
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Node Js is great for the rapid development of web-projects, but is often neglected because of the lack of
+type safety. TypeScript solves this issue and (along with its linter file) can even make your code
+more robust than some other static languages like Java.
 
-### `yarn build`
+## ⚙️ Installation
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+$ npm install -g typescript-react-starter
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🚀 Quick Start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The quickest way to get started is use npx and pass in the name of the project you want to create.
+If you don't specify a project name, the default _typescript-react-starter_ will be used instead.
 
-### `yarn eject`
+### 1. Create the app
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+$ npx typescript-react-starter "project name"
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Choose the template you want. We will create more templates later.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Start your typescript-react-starter app in development mode at `http://localhost:3000/`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+$ cd "project name" && npm run start
+```
 
-## Learn More
+## 🎠 Available commands for the server.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Run the Server in production mode : `npm run start`.
+- Run the Server in development mode : `npm run dev`.
+- Run all unit-tests: `npm run test`.
+- Check for linting errors: `npm run lint`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💳 License
+
+[MIT](LICENSE)
+
+## 🤝 Contributors
